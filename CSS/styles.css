@@ -1,20 +1,38 @@
 body {
-    background-color: #DFF6FF;
+    margin: 0;
+    text-align: center;
 }
 
-hr {
-    border-style: none;
-    border-top: 5px dotted grey;
-    width: 5%;
-    opacity: 0.5;
+h1 {
+    margin: 0;
 }
 
-h1{
-    color: #66BFBF;
-    opacity: 70%;
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding: 100px;
 }
 
-h3{
-    color: #66BFBF;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.middle-container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
